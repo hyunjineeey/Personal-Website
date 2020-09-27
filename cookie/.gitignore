@@ -31,5 +31,7 @@ style-pr.css
 *.png
 *.PNG
 
+.DS_Store
+
 
 
