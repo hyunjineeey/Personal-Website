@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hyunjin Jae 제현진</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/flag.min.css" rel="stylesheet">
+    <script src="js/translate.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand main_name" href="index.html">Hyunjin Jae</a>
+        <div class="language" style="text-align: right"><span id="translateToKr">🇰🇷</span> <span id="translateToEng">🇺🇸</span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div style="float: right; text-align: right" class="eng navbar-nav nav-right ml-auto">
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link" href="projects.html">Projects</a>
+                <a class="nav-item nav-link" href="blog.html">Blog</a>
+                <a class="nav-item nav-link active" href="faq.html">FAQ</a>
+                <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">Resume</a>
+                <!-- <a class="nav-item nav-link" href="survey.html">Survey</a> -->
+            </div>
+            <div style="float: right; text-align: right" class="kr hide navbar-nav nav-right ml-auto">
+                <a class="nav-item nav-link" href="about.html">나에 관하여</a>
+                <a class="nav-item nav-link" href="projects.html">프로젝트</a>
+                <a class="nav-item nav-link" href="blog.html">블로그</a>
+                <a class="nav-item nav-link active" href="faq.html">질문모음</a>
+                <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">이력서</a>
+                <!-- <a class="nav-item nav-link" href="survey.html">설문조사</a> -->
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="questions-box questions-container">
+    <div class="subtitle">
+        <h4 style="margin-bottom: 25px" class="faq_title eng"><i class="fa fa-commenting-o" aria-hidden="true"></i>
+            Frequently Asked Questions</h4>
+        <h4 style="margin-bottom: 25px" class="faq_title kr hide"><i class="fa fa-commenting-o" aria-hidden="true"></i>
+            자주 받는 질문</h4>
+    </div>
+</div>
+
+<div class="questions-box">
+    <p>
+        <a class="btn btn-dark text-left faq-text" data-toggle="collapse" href="#collapseExample1" role="button"
+           aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+            <span class="eng"> How do you pronounce your name?</span>
+            <span class="hide kr"> '현진’이라는 이름은 어떻게 발음 하나요?</span>
+        </a>
+    </p>
+    <div class="collapse faq-text" id="collapseExample1" style="margin-bottom: 20px">
+            <span class="eng">You can pronounce my name as <em><a href="https://youtu.be/ZUfRG3Q6K_E" target='_blank'>Hyeon-jin</a></em>.
+                    Some of my friends call me 'Jin' or 'Jiny'. For your information, ‘Hyunjin Jae’ means '<span
+                        class="bold">Be a Bright Influence on the World</span>'.
+                    That is what I am going to do in the future.</span>
+        <span class="kr hide">제 이름은 <em><a href="https://youtu.be/ZUfRG3Q6K_E" target="_blank">'Hyeon-jin'</a></em> 이라고 발음합니다.
+                    몇몇 친구들은 ‘진’ 또는 ‘지니’라고 부르기도 해요.
+                    참고로, ‘제현진'의 뜻은 <span class="bold">'세상에 밝은 영향력을 떨쳐라'</span> 입니다.
+                    제가 앞으로 나아갈 방향이기도 해요.</span>
+    </div>
+
+    <p>
+        <a class="btn btn-dark text-left faq-text" data-toggle="collapse" href="#collapseExample2" role="button"
+           aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+            <span class="eng"> Why do you code?</span>
+            <span class="kr hide"> 코딩을 하는 이유가 있으신가요?</span>
+        </a>
+    </p>
+    <div class="collapse faq-text" id="collapseExample2" style="margin-bottom: 20px">
+            <span class="eng">
+                        I believe that <a href="https://youtu.be/Dv7gLpW91DM" target='_blank'>coding can change the world.</a> There are many things that can be improved with coding.
+                        From small inconveniences to how an entire task is performed.
+                        Let’s suppose you have some inconveniences in your life and you want to make it better.
+                        Coding can fix it. All you need is a computer. You can make a program whenever or wherever you like,
+                        such as cafes, parks, even in your dorm. I believe through a completed program, one may receive great
+                        help in their daily lives and through this help they could live a happier life. <span
+                    class="bold">Isn't it cool to
+                        contribute to someone's life?</span> I'm putting a lot of energy into coding so that someone can live a better life.
+                    </span>
+        <span class="kr hide">
+                        코딩, 이것 하나면 세상을 변화시킬 수 있다고 믿어요. 살면서 내 마음대로 안 되는 것들이 정말 많은데,
+                        <a href="https://youtu.be/SESuctdE9vM" target='_blank'>코딩으로는 안 되는 게 없어요.</a> 만약 본인이 생활하면서 불편한 점이 있거나 꼭 필요한 프로그램이 있다고 가정해봅시다.
+                        필요한 건 딱 하나, 컴퓨터에요. 컴퓨터 하나만 있으면 카페, 공원, 기숙사 등 어디서든 시작할 수 있어요. 그리고 그렇게 완성된 프로그램이
+                        어떤 누군가의 생활에 큰 도움을 주고, 그로 인해 그/그녀가 행복한 하루를 살아간다고 생각해봤어요. <span
+                class="bold">어떤 누군가의 인생에 기여한다는 것</span>,
+                        정말 멋지지 않나요? 저는 그 누군가의 삶이 더 나은 삶이 될 수 있도록 열심히 코딩하는 중입니다.
+                    </span>
+    </div>
+
+    <p>
+        <a class="btn btn-dark text-left faq-text" data-toggle="collapse" href="#collapseExample3" role="button"
+           aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+            <span class="eng"> What are your plans after you graduate?</span>
+            <span class="kr hide"> 졸업 후 계획이 어떻게 되나요?</span>
+        </a>
+    </p>
+    <div class="collapse faq-text" id="collapseExample3" style="margin-bottom: 20px">
+            <span class="eng">
+                        I would like to get a job as a <span class="bold">Software Engineer</span>. I want to know how the material from school applies to real life.
+                        I hope my experiences will help people. I would like to work in a big city like New York where various races living
+                        or in Silicon Valley where there are many tech companies as well as Minnesota I’m currently living in.
+                        In the future, I am open to the idea of <span class="bold">starting my own business</span> if I can develop a great idea or meet potential business partners. Does anyone want to work with me? Please <a
+                    href="mailto:hyunjineeey@gmail.com">email</a> me. 😊
+                    </span>
+
+        <span class="kr hide">
+                        저는 졸업하면 <span class="bold">소프트웨어 개발자</span>로 일하고 싶어요. 현재 학교에서 배우고 있는 학문들이 실생활에서는 어떻게 적용되는지 알고 싶어요.
+                        그리고 제가 배운 지식과 경험들이 다른 사람들에게 도움이 됐으면 좋겠어요. 현재 살고있는 미네소타도 좋고, Tech 기업들이 많은 실리콘밸리 또는
+                        다양한 인종들이 살아가고 있는 뉴욕 같은 대도시에서도 일해보고 싶어요. 더 나아가 좋은 아이디어가 생기거나 마음이 맞는 사람이 생긴다면
+                        <span class="bold">창업</span>도 해보고 싶은 욕심이 있어요. 저와 같이 일하고 싶은 분 계신가요? <a
+                href="mailto:hyunjineeey@gmail.com">이메일</a> 주세요.😊
+                    </span>
+    </div>
+
+    <p>
+        <a class="btn btn-dark text-left faq-text" data-toggle="collapse" href="#collapseExample4" role="button"
+           aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+            <span class="eng"> How did you study English?</span>
+            <span class="kr hide"> 영어 공부는 어떻게 하셨나요?</span>
+        </a>
+    </p>
+    <div class="collapse faq-text" id="collapseExample4" style="margin-bottom: 20px">
+            <span class="eng">
+                        <p>
+                            I listen to <em>a lot of</em> <a
+                                href="https://apps.apple.com/app/apple-podcasts/id525463029"
+                                target='_blank'>Podcasts</a>. It is a great way to fill time while commuting, walking, working out,
+                            doing household tasks, etc. I feel like I listen to Podcasts more than Music. It has lots of different topics
+                            like IT, environment, daily life or history, etc. You could improve not only your listening skills also a
+                            knowledge in the field you are interested in. Here is a list of my favorite Podcasts.
+                        <br>
+                            <span style="font-size:13px">
+                            <i class="fa fa-headphones" aria-hidden="true"></i><span class="bold"> What is Currently Queued Up</span> :
+                            <a href="http://dobyfriday.com/" target='_blank'>Do By Friday</a>, <a
+                                    href="https://www.npr.org/programs/ted-radio-hour/"
+                                    target='_blank'>TED Radio Hour</a>,<a href="https://roosterteeth.com/"
+                                                                          target='_blank'> Rooster Teeth Podcast</a><br>
+                            <i class="fa fa-volume-down" aria-hidden="true"></i><span class="bold"> Past Favorites/Only for Studying English</span> : <a
+                                    href="https://www.allearsenglish.com/episodes/" target='_blank'>All Ears English</a>, <a
+                                    href="http://www.podbbang.com/ch/4301" target='_blank'>English Conversation with Story (in Korean)</a>
+                            </span>
+                        </p>
+                        <p>
+                            Besides, <span class="bold">I write a diary in English</span>. I have been writing a diary for a few years in Korean.
+                            Since I thought I needed to improve my writing skills, I started writing in English instead. I found that there are
+                            lots of ways to study English skills except for writing. You could even improve your listening and speaking
+                            skills when you have a conversation with native people. However, writing seems a little different. I didn’t
+                            write in English except for when I’m taking a composition class at school. So I decided to start and of course,
+                            I don’t do it every day but at least three times a week.
+                        </p>
+                        <p>
+                            <em>Note: I’m still learning. Please help me to improve. If you feel my English pronunciation or grammar is awkward, please don't hesitate to correct me. Thank you.
+                                </em>
+                        </p>
+                    </span>
+        <span class="kr hide">
+                        <p>저는 <a href="https://apps.apple.com/kr/app/apple-podcasts/id525463029" target='_blank'>팟캐스트</a>를 정말 자주 들어요. 밥 먹을 때, 학교 갈 때, 운동할 때, 집안일 할 때 등 노래보다 팟캐스트를 더 많이 듣는 편이에요. 팟캐스트에는 정말 다양한 주제들(환경, IT, 일상생활, 역사 등)이 많아요. 자주 듣다 보면 리스닝 실력도 좋아질 뿐만 아니라 그 분야에 대한 지식도 같이 얻을 수 있는 장점이 있어요. 그리고 계속 듣다 보면 이야기들이 재밌어서 계속 찾게 되더라고요. 제가 좋아하는 팟캐스트 목록은 다음과 같아요. <br>
+                            <span style="font-size:13px">
+                            <i class="fa fa-headphones" aria-hidden="true"></i><span class="bold"> 현재 듣고 있는 목록</span> :
+                            <a href="http://dobyfriday.com/" target='_blank'>Do By Friday</a>, <a
+                                    href="https://www.npr.org/programs/ted-radio-hour/"
+                                    target='_blank'>TED Radio Hour</a>,<a href="https://roosterteeth.com/"
+                                                                          target='_blank'> Rooster Teeth Podcast</a><br>
+                            <i class="fa fa-volume-down" aria-hidden="true"></i><span
+                                    class="bold"> 예전에 들었던 목록/영어 공부용</span> : <a
+                                    href="https://www.allearsenglish.com/episodes/" target='_blank'>All Ears English</a>, <a
+                                    href="http://www.podbbang.com/ch/4301"
+                                    target='_blank'>일빵빵 스토리가 있는 영어 회화 (한국어로 강의)</a>
+                            </span>
+                        </p>
+                        <p>그리고 저는 <span class="bold">영어 일기를 쓰고 있어요.</span> 몇 년 전부터 꾸준히 일기를 써왔는데 영어로 쓰기 시작하게 된 계기는 영어 작문 실력 때문이에요. 듣기, 말하기, 읽기는 공부할 수 있는 매체가 많고, 사람들과 대화하다 보면 자연스레 늘게 되지만 글쓰기는 조금 다른 것 같아요. 학교에서 작문 수업을 들을 때 빼고는 영어로 글 쓰는 일이 딱히 없었어요. 그래서 저는 "<span
+                                class="bold">그래! 어차피 매일 쓰는 일기, 영어로 써보자!</span>"라고 다짐했어요. 매일은 아니고 일주일에 최소 3회 이상은 영어로 쓰려고 노력해요.</p>
+            <!-- <p>저는 <a href="http://www.kunews.ac.kr/news/articleView.html?idxno=23216">언어를 배운다는건 그 나라의 문화를 배운다고</a> 생각해요. 혹시 영어를 한국어로 해석했을때 문장이 어색하다고 느껴지신적 있나요? 그렇다면, 왜 그런 문장이 쓰였는지 그 나라의 문화와 접목시키면 더 쉽게 이해할 수 있을거에요.</p> -->
+                        <p><em>참고: 저는 아직 배우는 중입니다. 제가 더 성장할 수 있도록 도와주세요. 혹시 제 영어 발음 또는 문법이 어색하다고 느껴지신다면 주저하지 말고 올바르게 고쳐주세요. 감사합니다.</em></p>
+                    </span>
+    </div>
+
+    <p>
+        <a class="btn btn-dark text-left faq-text" data-toggle="collapse" href="#collapseExample5" role="button"
+           aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+            <span class="eng"> How do you overcome when you are having a hard time?</span>
+            <span class="kr hide"> 힘든 일이 생겼을 땐 어떻게 극복하시나요?</span>
+        </a>
+    </p>
+    <div class="collapse faq-text" id="collapseExample5" style="margin-bottom: 20px">
+        <span class="eng">
+            <p>
+                First, I like to read <a href="books.html">books</a>. I take a break from what I’m currently doing
+                and read books when I’m stressed. Surprisingly, reading makes me calm. Every time I read a book, if I find
+                a sentence that touches my heart, I tend to write it down in my notebook. It has all the great sentences
+                from the books I’ve read so far. Whenever I read this notebook, I get motivated again.
+                <span class="bold">It is one of my treasures.</span>
+            </p>
+            <p>
+                In addition, <span class="bold">I FaceTime with my parents</span>. Everytime I FaceTime with them,
+                I feel calm for no reason. It is just a simple conversation and it makes me feel happy. I think that’s why
+                I FaceTime with them every night. They’re the ones who love and support me all the time.
+                <span class="bold">How can I repay them for their love?</span>
+            </p>
+            <p>
+                Lastly, I look at <span class="bold">the list of wise sayings</span> by Ms. Kim, who was my homeroom teacher when I was a high school senior. She told us a lot of wise sayings in class. I wrote them in my notebook every time she said them because I didn’t want to forget. Whenever I read them, I get motivated and it reminds me of the happy memories from my school days. Here is an example of one of her wise sayings that I’m most impressed with.
+            </p>
+            <p>
+                <em>"I think that I am raising 33 leaders." - Wednesday, August 14, 2013 AM 9:29</em>
+            </p>
+        </span>
+        <span class="kr hide">
+            <p>
+            저는 평소에 <a href="books.html">책</a> 읽는 걸 좋아해서 마음이 복잡할 때면 하는 일을 접고 책을 펴요. 신기하게도 책을 읽다 보면 마음이 편안해짐을 느껴요. 그리고 저는 책을 볼 때마다 마음에 와닿는 문장이 있으면 노트에 적어놓는 편이에요. 그 노트에는 제가 여태까지 봐왔던 책들에서 뽑은 좋았던 글귀들이 모두 적혀있어요. 이 공책을 보다 보면 다시 동기부여가 돼서 힘을 얻어요. 제 <span
+                    class="bold">보물</span>이에요.
+            </p>
+            <p>두 번째는 <span class="bold">부모님과 영상통화</span>를 해요. 부모님과 통화를 하다 보면 아무 이유 없이 마음이 안정돼요. 그냥 단순한 일상대화를 하는 것뿐인데 신기하게 기분이 좋아져요. 매일 밤 자기 전에는 꼭 통화하는 것 같아요. 네 맞아요. 부모님은 저를 가장 사랑하고 항상 응원해주시는 분들이에요. <span
+                    class="bold">제가 이 사랑을 다 갚을 수 있을까요?</span></p>
+            <p>마지막으론, 제가 고등학교 3학년 때 담임 선생님이셨던 김은희 선생님의 <span class="bold">명언 목록</span>을 봐요. 선생님께서는 조회, 종례, 수업 시간 도중에 좋은 말씀을 자주 해주셨어요. 저는 그것들을 오래 기억하고 싶어 그때마다 노트에 적어놨어요. 이 노트를 볼 때마다 정말 큰 힘을 얻어요. 그리고 그때 그 시절 행복했던 추억들이 생각나서 웃음이 나기도 해요. 선생님께서 하셨던 말씀 중에 아직도 볼 때마다 가슴이 뛰는 구절이 있어요. </p>
+            <p><em>"나는 33명의 지도자를 기른다고 생각한다." - 2013년 8월 14일 수요일 오전 9시 29분</em></p>
+        </span>
+    </div>
+
+    <p>
+        <a class="btn btn-danger text-left faq-text" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+            <span class="eng">More questions</span>
+            <span class="hide kr">더 많은 질문 보기</span>
+        </a>
+    </p>
+    <div class="collapse" id="collapseExample6" style="margin-bottom: 20px; font-size: 13px">
+        <p class="eng"><em>Please don't take it too seriously. It's just for fun. 😉</em></p>
+        <p class="kr hide"><em>진지하게 보지 마시고, 재미로 봐주세요. 😉</em></p>
+        <table class="table table-striped table-sm">
+        <!-- <table class="table table-bordered table-sm"> -->
+            <thead class="eng">
+            <tr><th scope="col">Question</th>
+                <th scope="col">Answer</th></tr>
+            </thead>
+            <thead class="kr hide">
+            <tr><th scope="col">질문</th>
+                <th scope="col">답변</th></tr>
+            </thead>
+            <tbody class="eng">
+            <tr><td>Date of Birth?</td><td>April 3, 1996</td></tr>
+            <tr><td>Height and weight?</td><td>5'3”, 115 lb</td></tr>
+            <tr><td>Shoe size?</td><td>6.5</td></tr>
+            <tr><td>Best friend?</td><td>Too many to write down</td></tr>
+            <tr><td>Things you did well in school?</td><td>I did well in everything, except studying</td></tr>
+            <tr><td>Things you did NOT do well in school?</td><td>In May...high school senior...</td></tr>
+            <tr><td>Were you popular in school?</td><td>Yep</td></tr>
+            <tr><td>If a time machine could take you, where would you go?</td><td>Myself in 8th grade</td></tr>
+            <tr><td>Most impressive moment recently?</td><td>When a friend who I lost touch with wished me a happy new year</td></tr>
+            <tr><td>Dream job when you were young?</td><td>Yogurt sales woman (thought I could eat it every day)</td></tr>
+            <tr><td>Who is a parent for you?</td><td>People for whom I buy gifts without looking at the price</td></tr>
+            <tr><td>Who is a sister for you?</td><td>A person to who I can give for free a Macbook that I’m not using</td></tr>
+            <tr><td>You think you're kind?</td><td>Sure, no one is kinder than me</td></tr>
+            <tr><td>You think you're pretty?</td><td>Hell yeah!</td></tr>
+            <tr><td>Have you been sick recently?</td><td>I ate too much food and suffered from indigestion a few days ago</td></tr>
+            <tr><td>What did you do yesterday?</td><td>Work</td></tr>
+            <tr><td>How much can you drink?</td><td>A bottle of beer</td></tr>
+            <tr><td>What did you eat recently?</td><td>Five Guys</td></tr>
+            <tr><td>Have you cried recently?</td><td>I cry all the time bc my eyes hurt</td></tr>
+            <tr><td>One thing you never wanna give up in your life?</td><td>Myself</td></tr>
+            <tr><td>What do you wanna do when you go back to Korea?</td><td>Eat <a href="https://youtu.be/Jl8Xpe7afrc" target="_blank">Korean BBQ</a></td></tr>
+            <tr><td>The most memorable travel spot?</td><td>Las Vegas</td></tr>
+            <tr><td>What part of your body are you most confident?</td><td>Face ^-^</td></tr>
+            <tr><td>What part of your personality are you most confident about?</td><td>Confidence</td></tr>
+            <tr><td>How was your 21st?</td><td>Alcoholic</td></tr>
+            <tr><td>Wanna say something to yourself at 21?</td><td>Stop pretending to be 21</td></tr>
+            <tr><td>Favorite word or sentence?</td><td>Hyunjin Jae</td></tr>
+            <tr><td>Favorite food?</td><td>Korean food</td></tr>
+            <tr><td>Favorite fruit?</td><td>Peach, Mango, Orange, Strawberry</td></tr>
+            <tr><td>What's love for you?</td><td>A person I miss</td></tr>
+            <tr><td>What's ur drunkest memory?</td><td>In summer 2018 with jumunjin friends♡</td></tr>
+            <tr><td>Can you recommend a book?</td><td><a href="https://www.barnesandnoble.com/w/analects-of-confucius-confucius/1000809181?ean=9780393316995" target="_blank">Analects of Confucius by Confucius</a></td></tr>
+            <tr><td>The most quirky question you've heard recently?</td><td>“Have you met Kim Jong Un?” - Uber driver</td></tr>
+            <tr><td>How do you spend your free time?</td><td>FaceTime (Please pick up guys)</td></tr>
+            <tr><td>Are you worried about something?</td><td>My eyes hurt so much and I'm worried about getting worse</td></tr>
+            <tr><td>Do you have a wish?</td><td>Class get cancelled due to large amounts of snow</td></tr>
+            <tr><td>Favorite netflix series?</td><td><a href="https://www.netflix.com/title/80991107" target="_blank">Mr.Sunshine</a> (Please watch it if you haven't)</td></tr>
+            <tr><td>Favorite shopping spot?</td><td>Apple store</td></tr>
+            <tr><td>What type of people you don't like?</td><td>A nuisance</td></tr>
+            <tr><td>Food you wanna eat right now?</td><td><a href="https://youtu.be/0X4O27aD8qw" target="_blank">Cheese Tonkatsu</a></td></tr>
+            <tr><td>Secret dream?</td><td>I'll keep it secret</td></tr>
+            <tr><td>Which friend can make you laugh easily?</td><td><a href="https://www.instagram.com/rachbang/" target="_blank">Rachel Bang</a></td></tr>
+            <tr><td>Bad habit?</td><td>When I want to pee, I pretend not go bathroom till I really need to go</td></tr>
+            <tr><td>When was your hardest moment for you?</td><td>When I miss people but I'm not able to meet them</td></tr>
+            <tr><td>What brand do you use for a lotion?</td><td>Kiehl's</td></tr>
+            <tr><td>What computer are you currently working on?</td><td><a href="tech.html">MacBook Pro</a></td></tr>
+            <tr><td>Bedtime?</td><td>10pm-12am</td></tr>
+            <tr><td>Treasure?</td><td>External hard drive</td></tr>
+            <tr><td>The most important thing in your life?</td><td>People</td></tr>
+            <tr><td>The most scariest thing in your life?</td><td>People</td></tr>
+            <tr><td>How do you want people to talk about you?</td><td>“She’s f**king cool”</td></tr>
+            <tr><td>Dog or cat?</td><td>Neither of them</td></tr>
+            <tr><td>Soju or Beer?</td><td><a href="https://youtu.be/XZ_h6pmdzZ8" target="_blank">Somaek</a></td></tr>
+            <tr><td>Chicken or Pizza?</td><td>Chicken</td></tr>
+            <tr><td>People you wanna meet in a dream?</td><td>Don't wanna dream anymore. Wanna sleep well.</td></tr>
+            <tr><td>Did something like a movie happen?</td><td>A movie is just a movie</td></tr>
+            <tr><td>Are you happy now?</td><td>"If you think you are, then you are" - my dad</td></tr>
+            <tr><td>What do you wanna say to yourself? </td><td>Hey you're f**king cool</td></tr>
+            </tbody>
+            <tbody class="kr hide">
+            <tr><td>생년월일?</td><td>1996년 4월 3일</td></tr>
+            <tr><td>키와 몸무게?</td><td>160cm, 52kg</td></tr>
+            <tr><td>신발 사이즈?</td><td>235</td></tr>
+            <tr><td>가장 친한 친구?</td><td>너무 많아서 다 못적어~</td></tr>
+            <tr><td>학창시절 가장 잘한일?</td><td> 나 공부빼고 다 잘했음</td></tr>
+            <tr><td>학창시절 가장 잘못한일?</td><td>고3...5월...읍읍…</td></tr>
+            <tr><td>학창시절 인기 많았어?</td><td> 당연하지^^</td></tr>
+            <tr><td>타임머신을 탄다면?</td><td>중학교 2학년 때</td></tr>
+            <tr><td>최근에 가장 감동 받았던 순간?</td><td>연락 끊겼던 친구가 갑자기 연락와서 새해복 많이 받으라고 했을 때</td></tr>
+            <tr><td>어렸을때 꿈?</td><td> 요구르트 아줌마 (요구르트 맨날 먹을 수 있어서)</td></tr>
+            <tr><td>당신에게 부모님이란?</td><td>선물 살때 가격 안 보고 사는사람</td></tr>
+            <tr><td>당신에게 언니란?</td><td>안 쓰는 맥북 그냥 줄수 있는 사람</td></tr>
+            <tr><td>본인이 착하다고 생각해?</td><td> 나보다 착한사람 있으면 나와바</td></tr>
+            <tr><td>본인이 이쁘다고 생각해?</td><td> 웅</td></tr>
+            <tr><td>최근에 아팠던적?</td><td> 며칠 전에 개처럼 먹고 체했을 때</td></tr>
+            <tr><td>어제 뭐했어?</td><td> 일 했어</td></tr>
+            <tr><td>주량?</td><td>맥주 한병</td></tr>
+            <tr><td>최근에 먹은 음식?</td><td><a href="https://youtu.be/mI6ebm9Ex_8" target="_blank">파이브 가이즈</a></td></tr>
+            <tr><td>최근에 울었던적?</td><td>눈 아파서 맨날 울어요</td></tr>
+            <tr><td>살면서 제일 포기하고 싶지않은 한가지?</td><td> 나</td></tr>
+            <tr><td>한국가면 가장 하고싶은거?</td><td>하남 돼지집가서 삼겹살 왕창먹기</td></tr>
+            <tr><td>가장 기억에 남는 여행지?</td><td> 라스베가스</td></tr>
+            <tr><td>몸 중에 가장 자신있는 부위?</td><td> 얼굴</td></tr>
+            <tr><td>성격중 가장 자신 있는 부분?</td><td>자신감</td></tr>
+            <tr><td>당신의 스무 살은?</td><td>술무살?</td></tr>
+            <tr><td>스무 살의 나에게 한마디 한다면?</td><td>스무 살도 아닌 게 스무 살인척하네 ㅋㅋ</td></tr>
+            <tr><td>좋아하는 단어 또는 문장?</td><td> 제현진</td></tr>
+            <tr><td>좋아하는 음식?</td><td>한식</td></tr>
+            <tr><td>좋아하는 과일?</td><td>복숭아, 망고, 오렌지, 딸기 ㅎㅎ</td></tr>
+            <tr><td>당신에게 사랑이란?</td><td>보고 싶은 사람</td></tr>
+            <tr><td>가장 심하게 술에 취했던 날은?</td><td>2018년 여름 w/ 주문진 친구들♡</td></tr>
+            <tr><td>책 한 권을 추천한다면?</td><td> 공자 논어</td></tr>
+            <tr><td>최근 들었던 질문 중 가장 황당했던 질문?</td><td>“너 김정은 만난적 있어?” - 우버기사</td></tr>
+            <tr><td>보통 쉴 때 뭐해?</td><td>페이스타임 (애들아 제발좀 받아줘)</td></tr>
+            <tr><td>요즘 걱정있어?</td><td>눈이 너무 아파. 더 나빠질까봐 걱정이야</td></tr>
+            <tr><td>소원 있어?</td><td>눈 많이 와서 학교 문 닫아주세요</td></tr>
+            <tr><td>가장 좋아하는 넷플릭스?</td><td><a href="https://www.netflix.com/title/80991107" target="_blank">미스터 션샤인</a> (안 본사람 있으면 제발 봐주세요)</td></tr>
+            <tr><td>가장 좋아하는 쇼핑 장소?</td><td> 애플 스토어</td></tr>
+            <tr><td>가장 싫어하는 사람?</td><td> 남한테 피해주는 사람</td></tr>
+            <tr><td>지금 가장 먹고싶은 음식?</td><td>치즈 돈가스</td></tr>
+            <tr><td>남 몰래 간직한 꿈?</td><td> 나 혼자 간직 할거야</td></tr>
+            <tr><td>얼굴만 봐도 웃긴친구?</td><td><a href="https://www.instagram.com/rachbang/" target="_blank">방윤제</a></td></tr>
+            <tr><td>고쳐야 할 버릇?</td><td>오줌 마려운데 끝까지 참는 거</td></tr>
+            <tr><td>가장 힘들때?</td><td>보고싶은데 볼 수가 없을 때</td></tr>
+            <tr><td>현재 사용하는 로션?</td><td>키엘</td></tr>
+            <tr><td>현재 사용하는 컴퓨터?</td><td><a href="tech.html">맥북 프로</a></td></tr>
+            <tr><td>취침시간?</td><td>밤 10-12시 사이</td></tr>
+            <tr><td>보물?</td><td>외장하드</td></tr>
+            <tr><td>인생에서 가장 중요한 것은?</td><td>사람</td></tr>
+            <tr><td>인생에서 가장 두려운 것은?</td><td>사람</td></tr>
+            <tr><td>사람들이 너를 어떻게 말했으면 좋겠어?</td><td>“야 걔 존* 멋있어”</td></tr>
+            <tr><td>개 or 고양이?</td><td>둘다 안 좋아해</td></tr>
+            <tr><td>소주 or 맥주?</td><td>소맥</td></tr>
+            <tr><td>치킨 or 피자?</td><td>치킨</td></tr>
+            <tr><td>꿈 속에서 만나고싶은 사람?</td><td>꿈 좀 제발 안 꾸고싶어.. 푹 자고싶어</td></tr>
+            <tr><td>영화 같은 일이 일어난 적?</td><td>영화는 영화일 뿐</td></tr>
+            <tr><td>지금 행복해?</td><td>행복하다고 생각하면 행복한 거랬어 울 아빠가</td></tr>
+            <tr><td>마지막으로 자신에게 해주고 싶은 말?</td><td>제현진 너 존* 멋있어</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <p class="eng" style="margin-top: 20px; font-size: 15px"><em>Last Updated : Feb 8, 2020</em></p>
+    <p class="kr hide" style="margin-top: 20px; font-size: 15px"><em>마지막 수정일 : 2020년 2월 8일</em></p>
+</div>
+
+<hr style="margin-top: 30px">
+<footer class="footer">
+    <p>© Hyunjin Jae, 2019</p>
+    <div class="footer-sns">
+        <a href="mailto:hyunjineeey@gmail.com" target="_blank"><i class="fa fa-envelope foot-sns"
+                                                                  aria-hidden="true"></i></a>
+        <a href="https://github.com/hyunjineeey" target="_blank"><i class="fa fa-github foot-sns"
+                                                                    aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/hyunjineeey/" target="_blank"><i class="fa fa-linkedin-square foot-sns"
+                                                                              aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/hyunjineeey/" target="_blank"><i class="fa fa-instagram foot-sns"
+                                                                            aria-hidden="true"></i></a>
+        <!-- <a href="https://www.facebook.com/hyunjineeey" target="_blank"><i class="fa fa-facebook-official foot-sns"
+                                                                          aria-hidden="true"></i></a> -->
+        <a href="https://www.youtube.com/channel/UCkXvgmur7Infi6w-KoIhPWw?view_as=subscriber" target="_blank"><i
+                class="fa fa-youtube-play foot-sns" aria-hidden="true"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>

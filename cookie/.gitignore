@@ -1,0 +1,35 @@
+node_modules
+build
+.sizecache.json
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Css
+flag.min.css
+font-awesome.css
+social-media.css
+style-pr.css
+
+# Images
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.png
+*.PNG
+
+
+
