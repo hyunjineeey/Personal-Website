@@ -20,9 +20,9 @@ build
 img/
 cookie/
 .idea/
-css/
+css/*
 !css/style.css
 
-.DS_Store
+**/.DS_Store
 study.html
 
