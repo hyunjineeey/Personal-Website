@@ -23,15 +23,10 @@ font-awesome.css
 social-media.css
 style-pr.css
 
-# Images
-*.jpg
-*.JPG
-*.jpeg
-*.JPEG
-*.png
-*.PNG
+img/
+cookie/
 
 .DS_Store
 
-
+study.html
 
