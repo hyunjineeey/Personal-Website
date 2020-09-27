@@ -30,8 +30,6 @@ style-pr.css
 *.JPEG
 *.png
 *.PNG
-**/cookie
-**/img
 
 .DS_Store
 
