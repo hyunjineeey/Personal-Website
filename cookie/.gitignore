@@ -24,12 +24,12 @@ social-media.css
 style-pr.css
 
 # Images
-#*.jpg
-#*.JPG
-#*.jpeg
-#*.JPEG
-#*.png
-#*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.png
+*.PNG
 **/cookie
 **/img
 
