@@ -132,7 +132,7 @@ body {
 
 .about {
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 12px;
     padding-left: 8%;
     padding-right: 8%;
     max-width: 1000px;
@@ -172,7 +172,7 @@ body {
 }
 
 .from-sec {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .sub-section-skills {
@@ -304,6 +304,7 @@ ul.timeline > li:before {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
+    margin-top: -10px;
 }
 
 /* Slides */
@@ -586,46 +587,45 @@ ul.timeline > li:before {
     }
 }
 
-/* main intro */
 @media only screen and (max-width: 402px) {
     .intro .info_container .info .info_text {
         font-size: 11px;
     }
-    /* .intro .info_container .hyunjin {
-        font-size: 28px;
-    } */
-    /* .timeline {
-        font-size: 0.9em;
-    } */
 }
 
-/* main intro */
 @media only screen and (max-width: 368px) {
     .intro .info_container .info .info_text {
         font-size: 10px;
     }
-    /* .intro .info_container .hyunjin {
-        font-size: 25px;
-    } */
 }
 
-/* main intro */
 @media only screen and (max-width: 336px) {
     .intro .info_container .info .info_text {
         font-size: 9px;
     }
-    /* .intro .info_container .hyunjin {
-        font-size: 23px;
-    } */
 }
 
-/* blog korean title */
 @media screen and (max-width: 445px) {
     .blog_kr_title {
         width: 230px;
     }
     .ai_kr_title {
         width: 260px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .blog_kr_title {
+        width: 210px;
+    }
+    .ai_kr_title {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 87%;
     }
 }
 
