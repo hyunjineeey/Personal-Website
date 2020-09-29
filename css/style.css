@@ -132,7 +132,7 @@ body {
 
 .about {
     margin: 0 auto;
-    padding-top: 12px;
+    /* padding-top: 12px; */
     padding-left: 8%;
     padding-right: 8%;
     max-width: 1000px;
