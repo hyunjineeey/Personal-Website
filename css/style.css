@@ -71,7 +71,7 @@ body {
 .intro {
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 5%;
+    margin-top: 2%;
     flex-direction: column;
 }
 
@@ -133,7 +133,7 @@ body {
 .about {
     margin: 0 auto;
     /* padding-top: 12px; */
-    padding-left: 8%;
+    padding-left: 8%;k
     padding-right: 8%;
     max-width: 1000px;
     flex-direction: column;
@@ -297,6 +297,11 @@ ul.timeline > li:before {
     background: #DDD342;
 }
 
+/* .education {
+    display: flex;
+    justify-content: center;
+} */
+
 /**
  * Testimonials
  */
@@ -337,10 +342,10 @@ ul.timeline > li:before {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    /*background-color: rgba(0,0,0,0.8);*/
-    /*color: white;*/
-}
+/* .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+} */
 
 /* The dot/bullet/indicator container */
 .dot-container {
@@ -455,7 +460,6 @@ ul.timeline > li:before {
 
 .blog_lead {
     /* text-align: justify; */
-    font-size: 18px;
     color: #000;
 }
 
@@ -555,6 +559,13 @@ ul.timeline > li:before {
     Responsive Web
 ************************/
 
+/* @media only screen and (max-width: 767px) {
+    .education {
+        display: unset;
+        justify-content: unset;
+    }
+} */
+
 @media screen and (max-width: 600px) {
     .interests-category {
         padding: 0;
@@ -605,23 +616,23 @@ ul.timeline > li:before {
     }
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 380px) {
     .blog_kr_title {
-        width: 230px;
+        width: 180px;
     }
     .ai_kr_title {
-        width: 260px;
+        width: 240px;
     }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .blog_kr_title {
         width: 210px;
     }
     .ai_kr_title {
         width: 240px;
     }
-}
+} */
 
 @media screen and (max-width: 400px) {
     html {
@@ -634,10 +645,6 @@ ul.timeline > li:before {
 ************************/
 
 footer {
-    margin-top: 35px;
-}
-
-.footer {
     margin: 0 auto;
     padding-left: 8%;
     padding-right: 8%;

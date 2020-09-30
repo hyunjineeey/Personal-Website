@@ -3,105 +3,87 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
+    <!-- Disable zoom on mobile -->
     <script>
         document.addEventListener('gesturestart', function (e) {
             e.preventDefault();
         });
     </script>
-
-
     <title>Hyunjin Jae 제현진</title>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Bootstrap for navbar -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap for styling-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Footer sns icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts for English and Korean name-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <!-- Css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/social-media.css">
-    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Song+Myung|Yeon+Sung&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <!-- Js -->
+    <script src="js/translate.js"></script>
+    <script src="js/index.js"></script>
 </head>
-
-<script src="js/translate.js"></script>
-
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-        <a class="navbar-brand main_name" href="index.html">Hyunjin Jae</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div style="float: right; text-align: right;" class="eng navbar-nav nav-right ml-auto">
-                <a class="nav-item nav-link" href="about.html">About</a>
-                <a class="nav-item nav-link" href="projects.html">Projects</a>
-                <a class="nav-item nav-link" href="blog.html">Blog</a>
-                <a class="nav-item nav-link" href="faq.html">FAQ</a>
-                <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">Resume</a>
-                <!-- <a class="nav-item nav-link" href="survey.html">Survey</a> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand main_name" href="index.html">Hyunjin Jae</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div style="float: right; text-align: right;" class="eng navbar-nav nav-right ml-auto">
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="projects.html">Projects</a>
+                    <a class="nav-item nav-link" href="blog.html">Blog</a>
+                    <a class="nav-item nav-link" href="faq.html">FAQ</a>
+                    <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">Resume</a>
+                </div>
+                <div style="float: right; text-align: right" class="kr hide navbar-nav nav-right ml-auto">
+                    <a class="nav-item nav-link" href="about.html">나에 관하여</a>
+                    <a class="nav-item nav-link" href="projects.html">프로젝트</a>
+                    <a class="nav-item nav-link" href="blog.html">블로그</a>
+                    <a class="nav-item nav-link" href="faq.html">질문모음</a>
+                    <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">이력서</a>
+                </div>
             </div>
-            <div style="float: right; text-align: right" class="kr hide navbar-nav nav-right ml-auto">
-                <a class="nav-item nav-link" href="about.html">나에 관하여</a>
-                <a class="nav-item nav-link" href="projects.html">프로젝트</a>
-                <a class="nav-item nav-link" href="blog.html">블로그</a>
-                <a class="nav-item nav-link" href="faq.html">질문모음</a>
-                <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">이력서</a>
-                <!-- <a class="nav-item nav-link" href="survey.html">설문조사</a> -->
+        </div>
+    </nav>
+
+    <div class="intro">
+        <div class="image" onclick="changeText()">
+            <img src="img/profile.png" alt="profile" id="profile">
+        </div>    
+
+        <div class="info_container">
+            <div class="info">
+                <p id="hyunjin" class="bold">Hyunjin Jae</p>
+                <p class="info_text">Studying at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota</a></p>
+                <p class="info_text" style="margin-top:-12px">Born and Raised in <a href="https://en.wikipedia.org/wiki/Seoul" target="_blank">Seoul, South Korea</a></p>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <div class="social-media-top">
+                <a style="font-size: 13px" class="btn btn-outline-primary" href="https://github.com/hyunjineeey"
+                role="button" target="_blank">Github</a>
+                <a style="font-size: 13px" class="btn btn btn-outline-primary" href="mailto:hyunjineeey@gmail.com"
+                role="button" target="_blank">Email</a>
+            </div>
+            <div class="social-media-bottom">
+                <a href="https://www.linkedin.com/in/hyunjineeey/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://www.youtube.com/channel/UCkXvgmur7Infi6w-KoIhPWw?view_as=subscriber" class="fa fa-youtube" target="_blank"></a>
+                <a href="https://www.instagram.com/hyunjineeey/" class="fa fa-instagram" target="_blank"></a>
             </div>
         </div>
     </div>
-</nav>
 
-<div class="intro">
-    
-    <div class="image" onclick="changeText()">
-        <img src="img/profile.png" alt="profile" id="profile">
-    </div>    
-
-    <div class="info_container">
-        <div class="info">
-            <p id="hyunjin" class="bold">Hyunjin Jae</p>
-            <p class="info_text">Studying at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota</a></p>
-            <p class="info_text" style="margin-top:-12px">Born and Raised in <a href="https://en.wikipedia.org/wiki/Seoul" target="_blank">Seoul, South Korea</a></p>
-        </div>
-    </div>
-
-    <div class="social-media">
-        <div class="social-media-top">
-            <a style="font-size: 13px" class="btn btn-outline-primary" href="https://github.com/hyunjineeey"
-               role="button" target="_blank">Github</a>
-            <a style="font-size: 13px" class="btn btn btn-outline-primary" href="mailto:hyunjineeey@gmail.com"
-               role="button" target="_blank">Email</a>
-        </div>
-        <div class="social-media-bottom">
-            <a href="https://www.linkedin.com/in/hyunjineeey/" class="fa fa-linkedin" target="_blank"></a>
-            <a href="https://www.youtube.com/channel/UCkXvgmur7Infi6w-KoIhPWw?view_as=subscriber" class="fa fa-youtube"
-               target="_blank"></a>
-            <a href="https://www.instagram.com/hyunjineeey/" class="fa fa-instagram" target="_blank"></a>
-            <!-- <a href="https://www.facebook.com/hyunjineeey" class="fa fa-facebook" target="_blank"></a> -->
-        </div>
-    </div>
-</div>
-
-<footer>
     <hr>    
     <p style="font-size: 12px; text-align: center;">© Hyunjin Jae, 2019</p>
-</footer>
-
-<script src="js/index.js"></script>
-
 </body>
 </html>
