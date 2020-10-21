@@ -12,4 +12,4 @@
 * Javascript  
 * jQuery  
 
-Link to the website : http://hyunjin.pro/
+Link to the website : http://hyunjinjae.com/
