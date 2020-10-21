@@ -75,18 +75,34 @@ body {
     flex-direction: column;
 }
 
-#hyunjin {
+.hyunjin_eng {
     background: linear-gradient(to right, #30CFD0 28%, #330867 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+.hyunjin_kr {
+    background: linear-gradient(to right, #30CFD0 28%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    margin-bottom: -15px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Stylish", sans-serif;
+    font-size: 40px;
 }
 
 .main_name {
     letter-spacing: 3px;
 }
 
-.image {
+.main_image {
     text-align: center;
 }
 
@@ -109,22 +125,12 @@ body {
     margin-top: 15px;
 }
 
-.info p {
+.info .info_text {
     margin-top: 20px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
 }
-
-/*.korean_font {*/
-/*    font-family: 'Stylish', sans-serif;*/
-/*    letter-spacing: 5px;*/
-/*    font-size: 40px;*/
-/*    margin-bottom: -10px;*/
-/*    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);*/
-/*    -webkit-background-clip: text;*/
-/*    -webkit-text-fill-color: transparent;*/
-/*}*/
 
 /************************
     About
@@ -612,8 +618,8 @@ ul.timeline > li:before {
 
 @media only screen and (max-width: 336px) {
     .intro .info_container .info .info_text {
-        font-size: 9px;
-    }
+         font-size: 9px;
+     }
 }
 
 @media screen and (max-width: 380px) {
@@ -637,6 +643,12 @@ ul.timeline > li:before {
 @media screen and (max-width: 400px) {
     html {
         font-size: 87%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    html {
+        font-size: 84%;
     }
 }
 

@@ -26,12 +26,14 @@
     <link rel="stylesheet" type="text/css" href="css/social-media.css">
     <!-- Js -->
     <script src="js/translate.js"></script>
-    <script src="js/index.js"></script>
+<!--    <script src="js/index.js"></script>-->
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand main_name" href="index.html">Hyunjin Jae</a>
+            <div class="language" style="text-align: right"><span id="translateToKr">&#x1F1F0;&#x1F1F7;</span> <span id="translateToEng">&#127482;&#127480;</span>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,29 +44,30 @@
                     <a class="nav-item nav-link" href="projects.html">Projects</a>
                     <a class="nav-item nav-link" href="blog.html">Blog</a>
                     <a class="nav-item nav-link" href="faq.html">FAQ</a>
-                    <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">Resume</a>
+                    <a class="nav-item nav-link" href="/resume.pdf" target="_blank">Resume</a>
                 </div>
                 <div style="float: right; text-align: right" class="kr hide navbar-nav nav-right ml-auto">
                     <a class="nav-item nav-link" href="about.html">나에 관하여</a>
                     <a class="nav-item nav-link" href="projects.html">프로젝트</a>
                     <a class="nav-item nav-link" href="blog.html">블로그</a>
                     <a class="nav-item nav-link" href="faq.html">질문모음</a>
-                    <a class="nav-item nav-link" href="http://hyunjin.pro/resume.pdf" target="_blank">이력서</a>
+                    <a class="nav-item nav-link" href="/resume.pdf" target="_blank">이력서</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <div class="intro">
-        <div class="image" onclick="changeText()">
-            <img src="img/profile.png" alt="profile" id="profile">
-        </div>    
+        <div class="main_image">
+            <img src="img/profile3.png" alt="profile" id="profile">
+        </div>
 
         <div class="info_container">
             <div class="info">
-                <p id="hyunjin" class="bold">Hyunjin Jae</p>
+                <p class="eng bold hyunjin_eng">Hyunjin Jae</p>
+                <p class="kr hide bold hyunjin_kr">제현진</p>
                 <p class="info_text">Studying at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota</a></p>
-                <p class="info_text" style="margin-top:-12px">Born and Raised in <a href="https://youtu.be/3P1CnWI62Ik" target="_blank">Seoul, South Korea</a></p>
+                <p class="info_text" style="margin-top:-12px">Born and Raised in <a href="https://en.wikipedia.org/wiki/Seoul" target="_blank">Seoul, South Korea</a></p>
             </div>
         </div>
 
